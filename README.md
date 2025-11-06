@@ -4,14 +4,21 @@ More insights will be shared on the project scope soon...
 
 ## Contributing guide
 
-Check out the open issues if you're willing to contribute to this project.
+If you’d like to contribute, please check out the open issues and pick one that interests you.
 
-Ideally, you should create a branch from `main` and open a pull request to that effect. Feel free to tag me as one of the reviewers. Please follow this commit convention:
+### Branching
 
-- `feat`: commits that include newly implemented features
+- Create your branch from the `snapshot` branch.
+- Name your branch based on the feature or fix you’re working on, prefixed by your name. Example: `james/payment-integration`
+
+When your changes are ready, open a pull request (PR) to `snapshot` and feel free to tag me as one of the reviewers.
+
+Please follow this commit message format to keep the history clean and consistent:
+
+- `feat`: New features or major functionality changes
 - `chore`: loose changes that do not relate to the actual functionalities of the project. For example, updating dependencies
-- `fix`: commits that include fixing a bug
-- `refactor`: changes that do not affect the functionality but are an improvement on existing code
+- `fix`: Bug fixes
+- `refactor`: Code improvements without changing functionality
 - `style`: changes to the styling of a component or page
 - `ci`: related to continuous integration
 - `build`: changes to the build system of a project
