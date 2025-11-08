@@ -15,7 +15,7 @@ When your changes are ready, open a pull request (PR) to `snapshot` and feel fre
 
 Please follow this commit message format to keep the history clean and consistent:
 
-- `feat`: New features or major functionality changes
+- `feat`: New features or major functionality changes.
 - `chore`: loose changes that do not relate to the actual functionalities of the project. For example, updating dependencies
 - `fix`: Bug fixes
 - `refactor`: Code improvements without changing functionality
